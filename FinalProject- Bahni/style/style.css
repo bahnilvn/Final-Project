@@ -1,0 +1,62 @@
+.judul {
+    text-align: center;
+    font-family: helvetica;
+    color: rgb(252, 39, 39);
+    font-size: 400%;
+}
+
+table {
+    margin: auto;
+    background-color: #363434;
+    border-radius: 10px;
+}    
+td{
+	padding: 5px;
+	border: none;
+}
+input[type=text]{
+	padding: 15px;
+	width: 430px;
+	border-style: solid;
+	text-align: right;
+	font-size: 24px;
+}
+input[type=text]:disabled{
+    background-color: #bccd95;
+    border-color: #1b1515 4px;
+
+}
+.tombol {
+	width: 90px;
+	height: 40px;
+	background-color: #1b1515;
+    
+    border-bottom: 2px solid;
+    color: white;
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.tombol:hover {
+    background-color: #686868
+}
+.opr{
+		background-color: #d11616;
+}
+.opr:hover{
+    background-color: #ec6e6e
+}
+.clr{
+	background-color:#1b1515;
+}
+.clr:hover{
+    background-color: #686868;
+}
+.hsl{
+	background-color: orange;
+}
+.hsl:hover{
+    background-color: #eebd63
+}

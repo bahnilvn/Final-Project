@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style\style.css">
+    <script type="text/javascript" src="js\calculator.js"></script>
+    </head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                  <a class="nav-link" href="#">Kalkulator</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="saran.html">Saran</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </br>
+</br>
+</br>
+</br></br>
+</br>
+      <table>
+                <tr>
+                    <td colspan="5">
+                        <input type="text" disabled id="output" value="0">
+                    </td>
+                </tr>
+                <tr>
+                    <td><button class="tombol" onclick="tombol('1')">1</button></td>
+                    <td><button class="tombol" onclick="tombol('2')">2</button></td>
+                    <td><button class="tombol" onclick="tombol('3')">3</button></td>
+                    <td><button class="tombol opr" onclick="operator(1)">*</button></td>
+                </tr>
+                <tr>
+                    <td><button class="tombol" onclick="tombol('4')">4</button></td>
+                    <td><button class="tombol" onclick="tombol('5')">5</button></td>
+                    <td><button class="tombol" onclick="tombol('6')">6</button></td>
+                    <td><button class="tombol opr" onclick="operator(2)">/</button></td>
+                </tr>
+                <tr>
+                    <td><button class="tombol" onclick="tombol('7')">7</button></td>
+                    <td><button class="tombol" onclick="tombol('8')">8</button></td>
+                    <td><button class="tombol" onclick="tombol('9')">9</button></td>
+                    <td><button class="tombol opr" onclick="operator(3)">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="tombol" onclick="tombol('0')">0</button></td>
+                    <td><button class="tombol" onclick="koma()">.</button></td>
+                    <td><button class="tombol clr" onclick="clr()">AC</button></td>
+                    <td><button class="tombol opr" onclick="operator(4)">+</button></td>
+                </tr>
+                <tr>
+                    <td colspan="5"><button class="tombol hsl" style="width: 100%" onclick="hitung()">HASIL</button></td>
+                </tr>
+            </table>
+            <script type="text/javascript" src="kalkulator.js"></script>
+        </body>
+        </html>
+        
